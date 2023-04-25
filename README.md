@@ -19,6 +19,6 @@ once installed, create a `team-reminderdb` table in your localhost database. The
 
 Modify the fields `url`, `user` and `password` that are in DatabaseInteractions.DbConnection in order to be able to interact with your freshly initialized database on your localhost.
 
-**Finaly launch the application from the class `AppLaunch`.
+**Finaly launch the application from the class `AppLaunch`.**
 
 **Administrator access code : `59875`**

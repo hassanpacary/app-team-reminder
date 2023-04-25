@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ReminderFeatures.AppAddReminder">
+  <grid id="27dc6" binding="panelAdd" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="675" height="605"/>
+    </constraints>
+    <properties>
+      <background color="-657931"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="dc827" layout-manager="GridLayoutManager" row-count="19" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="10" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-657931"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b5e61" class="javax.swing.JTextPane" binding="panelDescription">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="81cda" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Dernière programmation*"/>
+            </properties>
+          </component>
+          <component id="9a15f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Prochaine programmation*"/>
+            </properties>
+          </component>
+          <component id="6fbad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Notification par mail"/>
+            </properties>
+          </component>
+          <vspacer id="f57b9">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="9ca6d">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="195fd">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="6aeea">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="9506a">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="6184a">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="37d22" class="javax.swing.JTextField" binding="tfTitle">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f9623" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Titre*"/>
+            </properties>
+          </component>
+          <component id="dc3b8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Description*"/>
+            </properties>
+          </component>
+          <component id="916e1" class="javax.swing.JComboBox" binding="cbReminderType">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <model/>
+            </properties>
+          </component>
+          <grid id="e7e78" binding="panelLastSchedule" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="12" style="0"/>
+            </properties>
+            <border type="none" title=""/>
+            <children/>
+          </grid>
+          <grid id="95d7d" binding="panelNextSchedule" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="12" style="0"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="c342f" class="javax.swing.JComboBox" binding="cbTaskType">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <model/>
+            </properties>
+          </component>
+          <component id="fe665" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Type de tâche"/>
+            </properties>
+          </component>
+          <component id="3af19" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Recurrence"/>
+            </properties>
+          </component>
+          <component id="387cd" class="javax.swing.JComboBox" binding="cbRecurrence">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <model/>
+            </properties>
+          </component>
+          <component id="e9621" class="javax.swing.JButton" binding="btnAdd">
+            <constraints>
+              <grid row="17" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-657931"/>
+              <enabled value="true"/>
+              <font size="14" style="0"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <opaque value="true"/>
+              <requestFocusEnabled value="true"/>
+              <rolloverEnabled value="true"/>
+              <selected value="false"/>
+              <text value="Ajouter"/>
+              <verifyInputWhenFocusTarget value="true"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <vspacer id="16149">
+            <constraints>
+              <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="1ba38">
+            <constraints>
+              <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="5904d" class="javax.swing.JRadioButton" binding="rbtnPriority">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-657931"/>
+              <enabled value="true"/>
+              <foreground color="-16777216"/>
+              <selected value="false"/>
+              <text value="Prioritaire"/>
+            </properties>
+          </component>
+          <component id="e882" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="État de la tâche"/>
+            </properties>
+          </component>
+          <component id="69952" class="javax.swing.JComboBox" binding="cbStateType">
+            <constraints>
+              <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <model/>
+            </properties>
+          </component>
+          <component id="87fa8" class="javax.swing.JComboBox" binding="cbSelectTeam">
+            <constraints>
+              <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Montserrat" size="12" style="0"/>
+              <model/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="e0416" class="javax.swing.JLabel" binding="labelSelectTeam">
+            <constraints>
+              <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Équipe"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e8f84" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10587906"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="28d70" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="26" style="1"/>
+              <foreground color="-1"/>
+              <text value="Ajouter une tâche"/>
+            </properties>
+          </component>
+          <component id="a175e" class="javax.swing.JLabel" binding="labelTeam">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22" style="1"/>
+              <foreground color="-1"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="38cb4">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="24e7d">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="35ecf" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="25" bottom="0" right="25"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15066328"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="f3e71" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15066328"/>
+              <borderPainted value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="baf58" class="javax.swing.JButton" binding="btnHome">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15066328"/>
+                  <enabled value="true"/>
+                  <font size="14" style="0"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="false"/>
+                  <text value="Menu principal"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="ca895" class="javax.swing.JButton" binding="btnList">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15066328"/>
+                  <enabled value="true"/>
+                  <font size="14" style="0"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="false"/>
+                  <text value="Liste des tâches"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="6d1ee" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Montserrat" size="26" style="1"/>
+              <foreground color="-1"/>
+              <text value="Team Reminder"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="5c27c">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
